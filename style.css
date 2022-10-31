@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -137,7 +137,7 @@
 }
 
 .list__item > .input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .button__img {
@@ -152,18 +152,18 @@
 
 /* Completed */
 #completed-tasks .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list__item .input[type=text] {
-  display: none
+  display: none;
 }
 
 .list__item_edit-mode .input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list__item_edit-mode .label {
